@@ -79,3 +79,135 @@ li{
     width : 120px;
     height : 180px;
 }
+.footer-2{
+    display : flex;
+    justify-content: space-around;
+    background-color: #fcfcfc;
+}
+#social-icons{
+    display : flex;
+    justify-content: space-between;
+}
+#social-icons>div>i{
+    margin-inline: 30px;
+}
+#footer-link>button{
+    margin-inline : 10px;
+}
+#footer-link{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-link>p{
+    color : #666666;
+    font-size: medium;
+}
+
+#foot-p{
+    width : 300px;
+    font-size:small;
+    color : #8b8b8b;
+}
+#footer-link>button{
+    background-color: #213b50;
+    color : white;
+    font-size: x-small;
+    padding : 3px;
+    border-radius: 10px;
+}
+#base-p{
+   margin : 10px 50px;
+   color : #737373;
+   font-size: small;
+   padding-top : 20px;
+}
+ #footer-1{
+    display : flex;
+    color : #6b6b6b;
+    font-size:15px;
+ }
+#footer-1-div1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top : 20px;
+    flex : 2;
+}
+
+#footer-1-div2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom : 30px;
+    padding-top: 20px;
+    flex : 3;
+} 
+/* #footer-1-div2-1{
+    padding-left: 50px;
+}
+#footer-1-div2-2{
+    padding-left: 50px;
+}
+#footer-1-div2-3{
+    padding-left: 50px;
+} */
+@media screen and (max-width : 480px){
+    #footer-1-div1{
+        flex-direction: column;
+    }
+    #footer-1-div2{
+        flex-direction: column;
+    }
+}
+#span1{
+    margin-left : 90px;
+    font-size: x-large;
+    font-weight: 700;
+}
+#span2{
+    padding-left : 379px;
+    font-size: x-large;
+    font-weight: 700;
+
+}
+#span3{
+    padding-left : 20px;
+    color : green;
+}
+
+.container{
+    width : 100vw;
+    overflow-x: scroll;
+}
+.list{
+    white-space: nowrap;
+   display: flex;
+}
+.my-card{
+   width : 200px;
+    /* display : inline-block; */
+
+}
+.time{
+    border-radius : 5px;
+    background-color: #f8f8f8;
+    width : fit-content;
+    font-size: 12px;
+    padding : 2px 5px;
+    font-weight: 500;
+}
+.product-name{
+    font-size: 15px;
+    font-weight: 900;
+}
+.weight{
+    color : #828282;
+    font-weight: 200;
+    font-size: 12px;
+}
+.my-card>img{
+    width : 90%;
+    margin: auto;
+}
+.my-card{
+    margin-inline: 10px;
+}
