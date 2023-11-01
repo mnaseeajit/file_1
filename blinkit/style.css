@@ -8,18 +8,28 @@
     display : flex;
     justify-content: space-evenly;
     align-items: center;
-    position: sticky;
-    top : 0px;
+   
 }
+.container-fluid{
+    position : fixed;
+    top : 0px;
+    background-color : #ffffff;
+    color : black;
+}
+
+
 li{
     list-style-type: none;
 }
 #nav-item-1{
-    border-left : 1px solid #f2f2f2;
-    padding-left : 10px;
+     border-left : 1px solid #f2f2f2;
+   padding-top: 10px;
+   padding-left: 10px;
+   font-weight:900;
+   font-size: small;
 }
 
-.navbar{
+.container-fluid{
     border-bottom : 1px solid #f2f2f2;
 }
 #nav-item-2{
@@ -27,6 +37,7 @@ li{
     padding-right: 50px;
     
 }
+
 /* #nav-item-2>div{
     background-color: ;
     width : 50%;
@@ -47,10 +58,10 @@ li{
     color : #3c3c3c;
     background-color: white;
 }
-#nav-item-4{
-    padding-right:0px;
+/* #nav-item-4{
+    margin-right : 10px;
     
-}
+} */
 #nav-item-4>button{
     background-color: #0c831f;
     color : white;
@@ -59,14 +70,16 @@ li{
     white-space : nowrap;
     
 }
+#div1{
+    padding-top : 80px;
+}
 #hero-section{
     margin : 10px 50px;
 }
-#div2{
+.div2{
     width : 92vw;
     height : auto;
     overflow-x : scroll;
-    
 }
 .mylist>img{
     margin : 10px;
@@ -173,19 +186,36 @@ li{
     padding-left : 20px;
     color : green;
 }
+#footer{
+    padding-top: 70px;
+}
 
-.container{
-    width : 100vw;
-    overflow-x: scroll;
+.cont1{
+    width : 90vw;
+    height : auto;
+    overflow-x : scroll ;
 }
 .list{
-    white-space: nowrap;
-   display: flex;
+     white-space : nowrap;
 }
+.div4{
+    padding-bottom : 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.div4>div>h3{
+    font-size: x-large;
+    font-weight: 900;
+}
+.div4>div>h5{
+    color : green;
+    font-weight: 500;
+}
+
 .my-card{
    width : 200px;
-    /* display : inline-block; */
-
+    display : inline-block;
+   border : 1px solid #e8e8e8;
 }
 .time{
     border-radius : 5px;
@@ -198,6 +228,7 @@ li{
 .product-name{
     font-size: 15px;
     font-weight: 900;
+    overflow : hidden;
 }
 .weight{
     color : #828282;
