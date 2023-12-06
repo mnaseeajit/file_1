@@ -561,3 +561,8 @@ footer{
         width : 200%;
     }
 }
+@media screen and (max-width : 500px){
+    #page9>img{
+        display: none;
+    }
+}
